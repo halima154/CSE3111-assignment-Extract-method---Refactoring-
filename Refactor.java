@@ -16,8 +16,7 @@ public class Refactor{
 			Order each = (Order) e.nextElement();
 			outstanding += each.getAmount();	
 	}
-	return outstanding;
-
+	
 	System.out.println("name: " + _name);
 	System.out.println("amount: " + outstanding);
 
